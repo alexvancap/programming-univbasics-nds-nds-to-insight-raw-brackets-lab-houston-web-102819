@@ -15,6 +15,7 @@ def directors_totals(nds)
 
   while row_index < nds.length do
     column_index = 0
+    puts 1
     while column_index < nds[row_index].length do
 
 
