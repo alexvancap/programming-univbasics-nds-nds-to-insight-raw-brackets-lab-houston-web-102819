@@ -18,6 +18,7 @@ def directors_totals(nds)
 
       column_index += 1
     end
+    puts 1
     row_index += 1
   end
   #
