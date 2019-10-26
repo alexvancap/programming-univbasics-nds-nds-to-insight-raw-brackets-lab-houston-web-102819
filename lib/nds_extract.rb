@@ -41,4 +41,4 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   nil
 end
-pp directors_database
+directors_totals(directors_database)
