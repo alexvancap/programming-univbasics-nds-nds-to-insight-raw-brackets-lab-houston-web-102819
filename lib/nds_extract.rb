@@ -6,9 +6,16 @@ def directors_totals(nds)
   # that you know what you're starting with!
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  pp nds
   result = {
   }
+
+  row_index = 0
+
+  p nds[0][:movies][0][:worldwide_gross]
+  while row_index < nds.length do
+    
+    row_index += 1
+  end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
