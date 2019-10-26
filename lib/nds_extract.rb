@@ -38,4 +38,3 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   return result
 end
-p directors_totals(directors_database)
