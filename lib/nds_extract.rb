@@ -10,13 +10,13 @@ def directors_totals(nds)
   }
 
   row_index = 0
-  count = 0
+
+  pp nds
 
   while row_index < nds.length do
     column_index = 0
     while column_index < nds[row_index].length do
 
-      p count += 1
 
       column_index += 1
     end
